@@ -6,6 +6,7 @@ gem 'rails', '3.1.1'
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
+gem 'gravatar_image_tag'
 
 gem 'execjs'
 gem 'therubyracer'
@@ -31,6 +32,7 @@ group :test do
   gem 'spork'
   gem 'autotest'
   gem 'autotest-rails-pure'
+  gem 'factory_girl_rails'
 end
 
 
