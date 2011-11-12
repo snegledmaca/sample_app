@@ -28,6 +28,8 @@ group :test do
   gem 'rspec-rails', '>= 2.7.0'
   gem 'webrat'
   gem 'spork'
+  gem 'autotest'
+  gem 'autotest-rails-pure'
 end
 
 
