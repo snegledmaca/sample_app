@@ -8,6 +8,7 @@ gem 'rails', '3.1.1'
 gem 'sqlite3'
 gem 'gravatar_image_tag'
 gem 'pg'
+gem 'will_paginate'
 
 gem 'execjs'
 gem 'therubyracer'
@@ -25,6 +26,7 @@ gem 'jquery-rails'
 group :development do
   gem 'rspec-rails', '>= 2.7.0'
   gem 'annotate', :git => 'git://github.com/ctran/annotate_models.git'
+  gem 'faker'
 end
 
 group :test do
